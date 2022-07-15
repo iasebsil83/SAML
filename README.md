@@ -11,12 +11,12 @@
 
 This project is divided in different branches :
 - [master](https://github.com/iasebsil83/SAML), General information about the SAML.
-- [python](https://github.com/iasebsil83/SAML/python), library for reading/writting SAML in Python.
-- [C     ](https://github.com/iasebsil83/SAML/c), library for reading/writting SAML in C.
-- [JS    ](https://github.com/iasebsil83/SAML/javascript), library for reading/writing SAML in JavaScript.
-- [Kotlin](https://github.com/iasebsil83/SAML/kotlin), library for reading/writting SAML in Kotlin.
-- [Go    ](https://github.com/iasebsil83/SAML/go), library for reading/writting SAML in Go.
-- [Lua   ](https://github.com/iasebsil83/SAML/lua), library for reading/writting SAML in Lua.
+- [python](https://github.com/iasebsil83/SAML/tree/python), library for reading/writting SAML in Python.
+- [C     ](https://github.com/iasebsil83/SAML/tree/c), library for reading/writting SAML in C.
+- [JS    ](https://github.com/iasebsil83/SAML/tree/javascript), library for reading/writing SAML in JavaScript.
+- [Kotlin](https://github.com/iasebsil83/SAML/tree/kotlin), library for reading/writting SAML in Kotlin.
+- [Go    ](https://github.com/iasebsil83/SAML/tree/go), library for reading/writting SAML in Go.
+- [Lua   ](https://github.com/iasebsil83/SAML/tree/lua), library for reading/writting SAML in Lua.
 
 We are currently on branch **master**.
 
@@ -35,10 +35,11 @@ It has been made as **simple** as possible to be read and written by any kind of
 
 The objective behind SAML is to get/set information from a data file as quickly as possible.
 
-That means that the syntax must be the lightest and restrictive.
+That means that the syntax must be the lightest possible and restrictive.
 
-**NOTE:** The default SAML syntax is **included** into the YAML syntax.
-      That means that a YAML reader can understand a SAML text but the opposite is not totally true.
+***NOTE:*** The default SAML syntax is **included** into the YAML syntax.
+
+That means that a YAML reader can understand a SAML text but the opposite is not totally true.
 
 &nbsp;
 
@@ -83,10 +84,11 @@ END        CHARACTER : '\n' (line feed)
 SEPARATION CHARACTER : ':'
 TABULATION CHARACTER : '\t' (tabulation)
 ```
-They are customizable in the beginning of all SAML programs/libraries.
+They are customizable at the beginning of all SAML programs/libraries.
 
-**WARNING:** Do not use alphanumerical characters as special (including underscores) or you may have surprises !
-             Also pay attention to the character used, especially because of its encoding.
+***WARNING:*** Do not use alphanumerical characters as special (including underscores) or you may have surprises !
+
+Also pay attention to the character used, especially because of its encoding.
 
 &nbsp;
 
